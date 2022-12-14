@@ -30,7 +30,7 @@ using namespace std;
         temp->next = n;
     }
     
-    void inserAtPosition(Node* &Head,int d,int pos){
+    void insertAtPosition(Node* &Head,int d,int pos){
         Node* temp = Head;
         Node* n = new Node(d);
         Node* prev = Head;
