@@ -99,7 +99,7 @@ int main()
     deletion(Head,3);
     print(Head);
     cout<<endl;
-    inserAtPosition(Head,3,3);
+    insertAtPosition(Head,3,3);
     print(Head);
     return 0;
 }
