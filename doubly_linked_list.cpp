@@ -17,7 +17,7 @@ using namespace std;
         }
         
         ~Node(){
-            cout<<"memory id free for "<<this->data<<endl;
+            cout<<"memory is free for "<<this->data<<endl;
         }
     };
     
